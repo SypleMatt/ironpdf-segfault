@@ -30,7 +30,7 @@ public class AppController : Controller
     {
         IronPdf.Installation.SendAnonymousAnalyticsAndCrashData = false;
         IronPdf.Installation.ChromeGpuMode = ChromeGpuModes.Disabled;
-        IronPdf.Installation.AutomaticallyDownloadNativeBinaries = true;
+        IronPdf.Installation.LinuxAndDockerDependenciesAutoConfig = false;
         IronPdf.Installation.Initialize();
         
         return Ok("Initialised successfully");
