@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+IronSegFault/bin
+IronSegFault/obj
+*.log
